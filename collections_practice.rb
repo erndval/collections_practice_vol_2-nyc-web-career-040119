@@ -2,8 +2,8 @@ require "pry"
 
 def begins_with_r (array)
   array.do each |element|
+  binding.pry
   if element[0] == "r"
-    binding.pry
     return TRUE
   else 
     return FALSE
